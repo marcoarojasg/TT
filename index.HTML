@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Registros y API</title>
+</head>
+<body>
+    <h1>Generador de Registros y API</h1>
+
+    <form action="D:/escritorio/Talleres TT/generar_registros.py" method="post">
+        <label for="num_registros">Número de Registros:</label>
+        <input type="number" id="num_registros" name="num_registros" min="1" required>
+        <button type="submit">Generar Registros</button>
+    </form>
+
+    <hr>
+
+    <form action="D:/escritorio/Talleres TT/analisis_datos" method="get">
+        <button type="submit">Obtener Análisis de Datos</button>
+    </form>
+
+    <div id="analisis_resultado"></div>
+
+</body>
+</html>
